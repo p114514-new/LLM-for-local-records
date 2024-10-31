@@ -1,0 +1,4 @@
+我找了一个能够非常简单快速上手的RAG工具，可以快速构建知识库和文本处理，构建索引之类的
+https://blog.csdn.net/m0_59163425/article/details/142368632
+https://github.com/langgenius/dify/blob/main/README_CN.md
+https://www.bilibili.com/video/BV1P4421S7sh/?spm_id_from=333.788.recommend_more_video.-1&vd_source=7c5acb1e9601e988d34791f433dd20a9
