@@ -134,8 +134,7 @@ def generate_batch_job(doc_path, output_path):
     print(f"Document name: {doc_name} \n Document length: {doc_length} \n Generating tasks...")
 
     batch_data = []
-    # for start_idx in tqdm(range(0, doc_length - DEFAULT_CHUNK_LEN, DEFAULT_STEP)):
-    for start_idx in tqdm(range(0, 200, DEFAULT_STEP)):
+    for start_idx in tqdm(range(0, doc_length - DEFAULT_CHUNK_LEN, DEFAULT_STEP)):
         idx = slice(start_idx, start_idx + DEFAULT_CHUNK_LEN)
         chunk = read_docx(doc_path, idx)
         task = {
@@ -283,6 +282,8 @@ def retrieve_batch_job(batch_job_id, doc_name, response_output_path):
 
             with open(output_path, 'a', encoding='utf-8') as f:
                 f.write(content_text + '\n\n\n')
+
+        print('Results retrieved and stored in file')
 
 
 
