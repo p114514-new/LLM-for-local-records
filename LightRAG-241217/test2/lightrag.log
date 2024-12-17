@@ -1,0 +1,101 @@
+2024-12-17 15:27:00,235 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:27:00,235 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:27:00,235 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:27:00,235 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:28:29,456 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:28:29,456 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:28:29,456 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:28:29,456 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:28:29,485 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-17 15:28:29,871 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2024-12-17 15:33:53,024 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:33:53,024 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:33:53,024 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:33:53,024 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:33:53,025 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2024-12-17 15:33:53,054 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-17 15:34:12,023 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2024-12-17 15:36:42,395 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:36:42,396 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:36:42,396 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:36:42,396 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:36:42,398 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2024-12-17 15:36:42,480 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-17 15:38:03,886 - lightrag - INFO - Writing graph with 0 nodes, 0 edges
+2024-12-17 15:54:04,769 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:54:04,769 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:54:04,769 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:54:04,769 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:54:04,770 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2024-12-17 15:54:04,799 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-17 15:54:11,825 - lightrag - INFO - [New Chunks] inserting 60 chunks
+2024-12-17 15:54:11,825 - lightrag - INFO - Inserting 60 vectors to chunks
+2024-12-17 15:54:33,715 - lightrag - INFO - [Entity Extraction]...
+2024-12-17 15:59:56,372 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 15:59:56,372 - lightrag - INFO - Load KV llm_response_cache with 0 data
+2024-12-17 15:59:56,372 - lightrag - INFO - Load KV full_docs with 0 data
+2024-12-17 15:59:56,372 - lightrag - INFO - Load KV text_chunks with 0 data
+2024-12-17 15:59:56,373 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2024-12-17 15:59:56,403 - lightrag - INFO - [New Docs] inserting 1 docs
+2024-12-17 16:00:02,868 - lightrag - INFO - [New Chunks] inserting 60 chunks
+2024-12-17 16:00:02,868 - lightrag - INFO - Inserting 60 vectors to chunks
+2024-12-17 16:00:24,267 - lightrag - INFO - [Entity Extraction]...
+2024-12-17 17:50:13,086 - lightrag - INFO - Inserting 1291 vectors to entities
+2024-12-17 17:53:52,048 - lightrag - INFO - Inserting 733 vectors to relationships
+2024-12-17 17:54:55,354 - lightrag - INFO - Writing graph with 1322 nodes, 733 edges
+2024-12-17 17:54:59,217 - lightrag - INFO - Local query uses 180 entites, 149 relations, 22 text units
+2024-12-17 17:55:02,664 - lightrag - INFO - Global query uses 64 entites, 180 relations, 18 text units
+2024-12-17 19:40:57,173 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 19:40:57,175 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 19:40:57,175 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 19:40:57,176 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 19:40:57,228 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 19:40:57,359 - lightrag - WARNING - All docs are already in the storage
+2024-12-17 19:41:09,565 - lightrag - INFO - Local query uses 180 entites, 149 relations, 22 text units
+2024-12-17 19:41:12,746 - lightrag - INFO - Global query uses 64 entites, 180 relations, 18 text units
+2024-12-17 19:48:02,803 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 19:48:02,806 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 19:48:02,806 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 19:48:02,806 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 19:48:02,858 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 19:48:02,982 - lightrag - WARNING - All docs are already in the storage
+2024-12-17 19:48:13,887 - lightrag - INFO - Local query uses 180 entites, 149 relations, 22 text units
+2024-12-17 19:48:18,428 - lightrag - INFO - Global query uses 64 entites, 180 relations, 18 text units
+2024-12-17 19:50:51,474 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 19:50:51,476 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 19:50:51,477 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 19:50:51,477 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 19:50:51,529 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 19:51:05,352 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 19:51:05,355 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 19:51:05,355 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 19:51:05,355 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 19:51:05,407 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 20:13:39,345 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 20:13:39,347 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 20:13:39,347 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 20:13:39,347 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 20:13:39,362 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 20:13:50,305 - lightrag - INFO - Local query uses 60 entites, 45 relations, 19 text units
+2024-12-17 20:13:54,154 - lightrag - INFO - Global query uses 57 entites, 60 relations, 18 text units
+2024-12-17 20:21:14,543 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 20:21:14,544 - lightrag - INFO - Load KV llm_response_cache with 123 data
+2024-12-17 20:21:14,545 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 20:21:14,545 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 20:21:14,560 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 20:21:23,843 - lightrag - INFO - Local query uses 60 entites, 45 relations, 19 text units
+2024-12-17 20:21:26,559 - lightrag - INFO - Global query uses 57 entites, 60 relations, 18 text units
+2024-12-17 20:38:49,257 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 20:38:49,258 - lightrag - INFO - Load KV llm_response_cache with 124 data
+2024-12-17 20:38:49,259 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 20:38:49,259 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 20:38:49,274 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 20:39:01,968 - lightrag - INFO - Local query uses 60 entites, 56 relations, 16 text units
+2024-12-17 20:39:05,057 - lightrag - INFO - Global query uses 69 entites, 60 relations, 18 text units
+2024-12-17 20:43:12,754 - lightrag - INFO - Logger initialized for working directory: ./test2
+2024-12-17 20:43:12,756 - lightrag - INFO - Load KV llm_response_cache with 126 data
+2024-12-17 20:43:12,756 - lightrag - INFO - Load KV full_docs with 1 data
+2024-12-17 20:43:12,756 - lightrag - INFO - Load KV text_chunks with 60 data
+2024-12-17 20:43:12,771 - lightrag - INFO - Loaded graph from ./test2/graph_chunk_entity_relation.graphml with 1322 nodes, 733 edges
+2024-12-17 20:43:26,715 - lightrag - INFO - Local query uses 60 entites, 52 relations, 20 text units
+2024-12-17 20:43:30,608 - lightrag - INFO - Global query uses 65 entites, 60 relations, 17 text units
