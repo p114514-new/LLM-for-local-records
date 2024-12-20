@@ -163,13 +163,27 @@ def get_chunk_tokens(text, tokenizer):
     return tokens
 
 
-def split_text_at_punctuation(text, valid_punctuations):
+def split_text_at_punctuation(text, tier1_punctuations, tier2_punctuations, tier3_punctuations):
     text_len = len(text)
     split_index = text_len // 3
 
-    for i in range(split_index, text_len):
-        if text[i] in valid_punctuations:
+    for i in range(split_index, split_index * 2):
+        if text[i] in tier1_punctuations:
             return [text[:i + 1], text[i + 1:]]
+
+    print('Warning: No tier1 punctuations found, you may want to check the text content. '
+          'Trying harder splitters by default.')
+    for i in range(split_index, split_index * 2):
+        if text[i] in tier2_punctuations:
+            return [text[:i + 1], text[i + 1:]]
+
+    for i in range(split_index, split_index * 2):
+        if text[i] in tier3_punctuations:
+            return [text[:i + 1], text[i + 1:]]
+
+    print('Error: No valid splitters found, default to split at the 1/3 point. '
+          'You would want to check if the function is incompatible with the text content.'
+          'Also, ensure that the text is not empty or too short for splitting.')
 
     return [text[0:split_index], text[split_index:]]
 
@@ -204,16 +218,19 @@ def ppl_chunking(text, max_token_size, threshold, ppl_model, using_tokenizer, la
         this_chunk = [chunks[longest_chunk_idx]]
         count = 3
         threshold = threshold
-        while count and len(this_chunk) == 1:
+        while count > 0 and len(this_chunk) == 1:
             count -= 1
             this_chunk = dynamic_chunk(this_chunk[0], small_model, small_tokenizer, threshold,
-                                                        language)
+                                       language)
             threshold -= 0.1
         if len(this_chunk) == 1:
             # perform hard split, find the first punctuation after 1/3 of the text
             text = this_chunk[0]
-            valid_punctuations = ['。', '！', '？', '；', '\n']
-            this_chunk = split_text_at_punctuation(text, valid_punctuations)
+            tier1_punctuations = ['。', '！', '？', '；', '\n', '!', '?', ';']
+            tier2_punctuations = ['，', '、', '：', ',', ':']
+            tier3_punctuations = ['.', '(', ')', '[', ']', '{', '}', '（', '）', '【', '】', '「', '」', '『', '』', ' ']
+            # split with lower tier punctuations if possible
+            this_chunk = split_text_at_punctuation(text, tier1_punctuations, tier2_punctuations, tier3_punctuations)
 
         # insert back the split chunks inplace
         chunks.pop(longest_chunk_idx)
